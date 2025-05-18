@@ -3,7 +3,6 @@ const baseURL = "https://joaoferreira.co.nz";
 const routes = {
   "/": true,
   "/about": true,
-  "/work": true,
 };
 
 const display = {
