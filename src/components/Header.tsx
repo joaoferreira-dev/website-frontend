@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 import { routes, display } from "@/app/resources/config";
 import { person } from "@/app/resources/content";
-import { Navbar } from "@/app/components/Navbar";
+import { Navbar } from "@/components/Navbar";
 
 
 type TimeDisplayProps = {
@@ -41,14 +41,14 @@ export default TimeDisplay;
 
 export const Header = () => {
   return (
-    <header className="flex justify-between w-full items-center px-4 py-6">
-      <div className="font-medium w-4/12">{display.location && <>{person.location}</>}</div>
+    <header className="flex justify-between w-full items-center px-4 py-6 fixed z-3 top-0">
+      <div className="text-sm w-4/12">{display.location && <>{person.location}</>}</div>
 
       <div className="w-4/12 flex justify-center">
         <Navbar />
       </div>
 
-      <div className="font-medium w-4/12 flex justify-end">{display.time && <TimeDisplay timeZone={person.timezone} />}</div>
+      <div className="text-sm w-4/12 flex justify-end">{display.time && <TimeDisplay timeZone={person.timezone} />}</div>
     </header>
   );
 }

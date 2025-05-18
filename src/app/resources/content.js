@@ -5,7 +5,7 @@ const person = {
         return `${this.firstName} ${this.lastName}`;
     },
     role: "Full Stack Software Developer",
-    avatar: "",
+    avatar: "/images/avatar.jpg",
     email: "joaosilvaferreira.dev@gmail.com",
     location: "New Zealand",
     timezone: "Pacific/Auckland",
@@ -35,6 +35,8 @@ const home = {
     label: "Home",
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
+    headline: "Welcome to my portfolio",
+    subheadline: "I'm João Ferreira, a Full Stack Software Developer",
 }
 
 export {person, social, home};

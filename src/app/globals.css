@@ -5,7 +5,7 @@ html {
 }
 
 .hero-background {
-  background: radial-gradient(circle at top, #0f172a 0%, #0d0d0e 60%) center / cover no-repeat fixed;
+  background: radial-gradient(circle at top, #0f1f2a 35%, #0d0d0e 60%) center / cover no-repeat fixed;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@ html {
 }
 
 .hero-background-2 {
-    background: linear-gradient(#0d0d0e 0%, #0d0d0e00 20%);
+    background: linear-gradient(#0d0d0e 15%, #0d0d0e00 65%);
     height: 100px;
     top: 0;
 }

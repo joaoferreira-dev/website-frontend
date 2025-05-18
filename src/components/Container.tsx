@@ -1,4 +1,4 @@
-import styles from "@/app/components/Container.module.css"
+import styles from "@/components/Container.module.css"
 
 interface ContainerProps { children: React.ReactNode, classNames?: string }
 

@@ -1,10 +1,17 @@
 import './globals.css'
-import { Footer, Header } from "@/app/components";
-import { baseURL, font } from "@/app/resources/config";
+import { Footer, Header } from "@/components";
+import { baseURL } from "@/app/resources/config";
 import { home } from "@/app/resources/content";
 
-import { Meta } from "@/app/modules";
-import classNames from 'classnames';
+import { Meta } from "@/modules";
+
+import { Geist } from "next/font/google";
+import { Geist_Mono } from "next/font/google";
+
+const geist = Geist({
+  subsets: ['latin'],
+  display: 'swap',
+});
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -21,20 +28,16 @@ interface RootLayoutProps {
 
 export default async function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en" className={classNames(
-      font.primary.variable,
-      font.secondary.variable,
-      font.tertiary.variable,
-      font.code.variable,
-    )}>
+    <html lang="en" className={geist.className}>
       <head></head>
       <body>
-        <div className="hero-background">
+        <div id="app" className="relative z-3">
           <Header />
-          <main>{children}</main>
+          <main className='pt-20'>{children}</main>
           <Footer />
         </div>
-        <div className='hero-background-2 fixed w-full'></div>
+        <div className="hero-background fixed z-1 w-full top-0"></div>
+        <div className='hero-background-2 fixed z-2 w-full top-0'></div>
       </body>
     </html>
   );
