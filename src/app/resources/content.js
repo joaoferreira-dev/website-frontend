@@ -35,8 +35,8 @@ const home = {
     label: "Home",
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: "Welcome to my brand new portfolio",
-    subheadline: "I'm João Ferreira, a Full Stack Developer passionate about building scalable and user-friendly web applications",
+    headline: "Delivering scalable and optimized web applications",
+    subheadline: "I'm João, a Full Stack Developer passionate about building scalable and user-friendly web applications",
     slider: [
         {
             imageURL: "/images/home.png",
@@ -73,7 +73,7 @@ const about = {
             ]
         }
     ],
-    technicalSkills: ["Python", "JavaScript", "TypeScript", "SQL", "React", "Next.js", "Django", "TailwindCSS", "AWS", "Docker", "Terraform", "Git", "GitHub", "Node.js", "REST APIs", "CI/CD", "Microservices", "Agile/Scrum", "Problem Solving", "System design"],
+    technicalSkills: ["Languages: Python, JavaScript & TypeScript, SQL", "Frameworks: React & Next.js, Django, TailwindCSS", "DevOps & Cloud: AWS, Docker, Terraform", "Tools: Git & GitHub, Node.js", "Other: REST APIs, CI/CD, Microservices, Agile/Scrum, Problem Solving, System design"],
     sidebar: [
         {
             title: "Introduction",

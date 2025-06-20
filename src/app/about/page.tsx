@@ -5,20 +5,22 @@ import { person, about } from "../resources/content";
 import { SocialIcons } from "@/components/SocialIcons";
 import { LanguageBadges } from "@/components/LanguageBadges";
 import { SidebarAbout } from "@/components/SidebarAbout";
+import TopScroller from "@/components/TopScroller";
 
 export default function About() {
     return (
         <>
+            <TopScroller />
             <SidebarAbout />
             
             <Container>
                 <Section noMargin>
-                    <div className="flex gap-10">
-                        <div className="w-4/12 flex flex-col items-center gap-5">
+                    <div className="flex flex-col md:flex-row gap-10">
+                        <div className="md:w-4/12 flex flex-col items-center gap-5">
                             <Image src="/images/avatar.jpg" alt="Profile Photo" width={150} height={150} className="rounded-full border border-white/50" />
                             <LanguageBadges />
                         </div>
-                        <div className="w-8/12">
+                        <div className="md:w-8/12">
                             <h1 className="text-6xl font-bold scroll-mt-20" id="introduction">{person.name}</h1>
                             <h2 className="text-2xl text-gray-400">{person.role}</h2>
                             <SocialIcons className="mt-5" />
