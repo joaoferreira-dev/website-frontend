@@ -2,7 +2,7 @@ import { about } from "@/app/resources/content";
 
 export const SidebarAbout = () => {
     return (
-        <div className="fixed left-4 top-[40%]">
+        <div className="fixed left-4 top-[40%] hidden xl:block">
             <nav>
                 <ul className="flex flex-col gap-8">
                     {about.sidebar.map((item, index) => (
