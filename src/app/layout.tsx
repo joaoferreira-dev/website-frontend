@@ -7,6 +7,9 @@ import { Meta } from "@/modules";
 
 import { Geist } from "next/font/google";
 
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 const geist = Geist({
   subsets: ['latin'],
   display: 'swap',
@@ -34,6 +37,8 @@ export default async function RootLayout({ children }: RootLayoutProps) {
           <Header />
           <main className='pt-20'>{children}</main>
           <Footer />
+          <Analytics />
+          <SpeedInsights />
         </div>
         <div className="hero-background fixed z-1 w-full top-0"></div>
         <div className='hero-background-2 fixed z-2 w-full top-0'></div>
