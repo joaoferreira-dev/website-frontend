@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 
-import { routes, display } from "@/app/resources/config";
+import { display } from "@/app/resources/config";
 import { person } from "@/app/resources/content";
 import { Navbar } from "@/components/Navbar";
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { IconType, } from "react-icons";
-import { iconLibrary, IconName } from "@/utils/icons"; 
+import { iconLibrary } from "@/utils/icons"; 
 
 export const Icon = ({
       name,
