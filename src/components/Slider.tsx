@@ -20,6 +20,12 @@ export const Slider = () => {
                         <div className="md:w-5/12 mt-6 px-6">
                             <h2 className="text-2xl font-bold">{slide.title}</h2>
                         </div>
+                        <div>
+                            <Button 
+                                href="/works"
+                                text="View Works"
+                            />
+                        </div>
                     </div>
                 </div>
             ))}
