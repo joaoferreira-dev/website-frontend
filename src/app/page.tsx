@@ -26,7 +26,7 @@ export default function Home() {
         <p className="text-gray-400 text-2xl font-medium my-5">{home.subheadline}</p>
         <div className="flex items-center gap-3">
           <Button href="/about" text={`About - ${person.name}`} avatar />
-          <Button href="/assets/cv-joao-nz.pdf" text="Download CV" />
+          <Button href="/assets/joao-ferreira-full-stack-developer.pdf" text="Download CV" _blank />
         </div>
         <SocialIcons className="mt-5" />
       </Section>
