@@ -73,7 +73,21 @@ const about = {
             ]
         }
     ],
-    technicalSkills: ["Python", "JavaScript", "TypeScript", "SQL", "React", "Next.js", "Django", "TailwindCSS", "AWS", "Docker", "Terraform", "Git", "GitHub", "Node.js", "REST APIs", "CI/CD", "Microservices", "Agile/Scrum", "Problem Solving", "System design"]
+    technicalSkills: ["Python", "JavaScript", "TypeScript", "SQL", "React", "Next.js", "Django", "TailwindCSS", "AWS", "Docker", "Terraform", "Git", "GitHub", "Node.js", "REST APIs", "CI/CD", "Microservices", "Agile/Scrum", "Problem Solving", "System design"],
+    sidebar: [
+        {
+            title: "Introduction",
+            anchor: "introduction",
+        },
+        {
+            title: "Work Experience",
+            anchor: "work-experience",
+        },
+        {
+            title: "Technical Skills",
+            anchor: "technical-skills",
+        },
+    ]
 }
 
 export {person, social, home, about};
