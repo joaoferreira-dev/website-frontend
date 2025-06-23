@@ -22,8 +22,9 @@ export const Slider = () => {
                         </div>
                         <div>
                             <Button 
-                                href="/works"
+                                href="https://github.com/kiwizera"
                                 text="View Works"
+                                _blank
                             />
                         </div>
                     </div>
