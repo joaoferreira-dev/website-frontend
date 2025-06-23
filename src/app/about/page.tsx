@@ -6,6 +6,7 @@ import { SocialIcons } from "@/components/SocialIcons";
 import { LanguageBadges } from "@/components/LanguageBadges";
 import { SidebarAbout } from "@/components/SidebarAbout";
 import TopScroller from "@/components/TopScroller";
+import { CallToAction } from "@/components/CallToAction";
 
 export default function About() {
     return (
@@ -66,6 +67,17 @@ export default function About() {
                             )}
                         </div>
                     </div>
+                </Section>
+            </Container>
+
+            <Container>
+                <Section>
+                    <CallToAction 
+                        headline={about.ctaContactMe.headline}
+                        subheadline={about.ctaContactMe.subheadline}
+                        buttonText={about.ctaContactMe.buttonText}
+                        buttonLink={about.ctaContactMe.buttonLink}
+                        _blank />
                 </Section>
             </Container>
         </>

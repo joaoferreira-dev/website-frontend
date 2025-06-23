@@ -9,14 +9,15 @@ const person = {
     email: "joaosilvaferreira.dev@gmail.com",
     location: "New Zealand",
     timezone: "Pacific/Auckland",
-    languages: ["English", "Portuguese"]
+    languages: ["English", "Portuguese"],
+    linkedin: "https://www.linkedin.com/in/joao-ferreira-developer/"
 };
 
 const social = [
     {
         name: "LinkedIn",
         icon: "linkedin",
-        link: "https://www.linkedin.com/in/joao-ferreira-developer/",
+        link: person.linkedin,
     },
     {
         name: "GitHub",
@@ -42,7 +43,13 @@ const home = {
             imageURL: "/images/home.png",
             title: "Building scalable and optimized web-applications"
         }
-    ]
+    ],
+    ctaAboutMe: {
+        headline: "Want to know more about me?",
+        subheadline: "Learn more about my journey, skills, goals, and what I’m passionate about. Let's connect and work together!",
+        buttonText: "Visit About Page",
+        buttonLink: "/about"
+    }
 }
 
 const about = {
@@ -87,7 +94,13 @@ const about = {
             title: "Technical Skills",
             anchor: "technical-skills",
         },
-    ]
+    ],
+    ctaContactMe: {
+        headline: "Let's Work Together!",
+        subheadline: "I'm currently open to remote opportunities where I can contribute as a Full Stack Developer and grow with a passionate team. If you have a role, a project, or just want to connect — feel free to reach out!",
+        buttonText: "Connect with me on LinkedIn",
+        buttonLink: person.linkedin
+    }
 }
 
 export {person, social, home, about};
