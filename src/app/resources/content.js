@@ -43,7 +43,7 @@ const home = {
             imageURL: "/images/website.png",
             title: "This portfolio was fully built by me using modern technologies.",
             buttonText: "Check out the GitHub repository",
-            buttonLink: "https://github/kiwizera/website-frontend"
+            buttonLink: "https://github.com/kiwizera/website-frontend"
         }
     ],
     ctaAboutMe: {
