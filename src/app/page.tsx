@@ -8,7 +8,6 @@ import { Button } from "@/components/Button";
 import { SocialIcons } from "@/components/SocialIcons";
 import { Slider } from "@/components/Slider";
 import TopScroller from "@/components/TopScroller";
-import Link from "next/link";
 import { CallToAction } from "@/components/CallToAction";
 
 export async function generateMetadata() {
