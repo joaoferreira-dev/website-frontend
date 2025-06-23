@@ -9,21 +9,21 @@ export const Slider = () => {
                     <img 
                         src={slide.imageURL}
                         alt={slide.title}
-                        className="w-full h-auto rounded-2xl shadow-lg"
+                        className="w-full h-auto rounded-2xl shadow-xl shadow-gray-900/90"
                         loading="lazy"
                     />
                     <div className="w-full px-3 mt-4">
                         <div className="w-full h-[2px] bg-white"></div>
                     </div>
                     
-                    <div className="flex flex-col md:flex-row gap-6 items-center justify-between">
-                        <div className="md:w-5/12 mt-6 px-6">
+                    <div className="mt-6 flex flex-col gap-5 items-center">
+                        <div className="md:w-10/12 px-6">
                             <h2 className="text-2xl font-bold">{slide.title}</h2>
                         </div>
                         <div>
                             <Button 
-                                href="https://github.com/kiwizera"
-                                text="View Works"
+                                href={slide.buttonLink}
+                                text={slide.buttonText}
                                 _blank
                             />
                         </div>
