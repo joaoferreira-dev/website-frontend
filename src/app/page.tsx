@@ -8,6 +8,8 @@ import { Button } from "@/components/Button";
 import { SocialIcons } from "@/components/SocialIcons";
 import { Slider } from "@/components/Slider";
 import TopScroller from "@/components/TopScroller";
+import Link from "next/link";
+import { CallToAction } from "@/components/CallToAction";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -39,6 +41,16 @@ export default function Home() {
     <Container classNames="px-10">
       <Section>
         <Slider />
+      </Section>
+    </Container>
+
+    <Container>
+      <Section>
+        <CallToAction 
+          headline={home.ctaAboutMe.headline} 
+          subheadline={home.ctaAboutMe.subheadline}
+          buttonText={home.ctaAboutMe.buttonText}
+          buttonLink={home.ctaAboutMe.buttonLink} />
       </Section>
     </Container>
   </>
