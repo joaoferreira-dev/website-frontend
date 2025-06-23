@@ -40,8 +40,10 @@ const home = {
     subheadline: "I'm João, a Full Stack Developer passionate about building scalable and user-friendly web applications",
     slider: [
         {
-            imageURL: "/images/home.png",
-            title: "Building scalable and optimized web-applications"
+            imageURL: "/images/website.png",
+            title: "This portfolio was fully built by me using modern technologies.",
+            buttonText: "Check out the GitHub repository",
+            buttonLink: "https://github/kiwizera/website-frontend"
         }
     ],
     ctaAboutMe: {
