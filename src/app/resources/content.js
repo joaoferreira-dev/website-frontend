@@ -7,8 +7,8 @@ const person = {
     role: "Full Stack Developer",
     avatar: "/images/avatar.jpg",
     email: "joaosilvaferreira.dev@gmail.com",
-    location: "New Zealand",
-    timezone: "Pacific/Auckland",
+    location: "Portugal",
+    timezone: "Europe/Lisbon",
     languages: ["English", "Portuguese"],
     linkedin: "https://www.linkedin.com/in/joao-ferreira-developer/"
 };
@@ -99,7 +99,7 @@ const about = {
     ],
     ctaContactMe: {
         headline: "Let's Work Together!",
-        subheadline: "I'm currently open to remote opportunities where I can contribute as a Full Stack Developer and grow with a passionate team. If you have a role, a project, or just want to connect — feel free to reach out!",
+        subheadline: "I'm currently open to opportunities where I can contribute as a Full Stack Developer and grow with a passionate team. If you have a role, a project, or just want to connect — feel free to reach out!",
         buttonText: "Connect with me on LinkedIn",
         buttonLink: person.linkedin
     }
