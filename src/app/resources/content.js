@@ -9,8 +9,8 @@ const person = {
     email: "joaosilvaferreira.dev@gmail.com",
     location: "Portugal",
     timezone: "Europe/Lisbon",
-    languages: ["English", "Portuguese"],
-    linkedin: "https://www.linkedin.com/in/joao-ferreira-developer/"
+    languages: ["English", "Portuguese", "Spanish"],
+    linkedin: "https://www.linkedin.com/in/joaoferreira-dev"
 };
 
 const social = [
@@ -22,7 +22,7 @@ const social = [
     {
         name: "GitHub",
         icon: "github",
-        link: "https://github.com/kiwizera",
+        link: "https://github.com/joaoferreira-dev",
     },
     {
         name: "Email",
@@ -43,7 +43,7 @@ const home = {
             imageURL: "/images/website.png",
             title: "This portfolio was fully built by me using modern technologies.",
             buttonText: "Check out the GitHub repository",
-            buttonLink: "https://github.com/kiwizera/website-frontend"
+            buttonLink: "https://github.com/joaoferreira-dev/website-frontend"
         }
     ],
     ctaAboutMe: {
