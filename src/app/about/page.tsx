@@ -6,7 +6,6 @@ import { SocialIcons } from "@/components/SocialIcons";
 import { LanguageBadges } from "@/components/LanguageBadges";
 import { SidebarAbout } from "@/components/SidebarAbout";
 import TopScroller from "@/components/TopScroller";
-import { CallToAction } from "@/components/CallToAction";
 
 export default function About() {
     return (
