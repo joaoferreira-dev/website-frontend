@@ -4,11 +4,11 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role: "Full Stack Developer",
+    role: "Software Engineer",
     avatar: "/images/avatar.jpg",
     email: "joaosilvaferreira.dev@gmail.com",
-    location: "Portugal",
-    timezone: "Europe/Lisbon",
+    location: "São Paulo, Brazil",
+    timezone: "America/Sao_Paulo",
     languages: ["English", "Portuguese", "Spanish"],
     linkedin: "https://www.linkedin.com/in/joaoferreira-dev"
 };
@@ -37,7 +37,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: "Delivering scalable and optimized web applications",
-    subheadline: "I'm João, a Full Stack Developer passionate about building scalable and user-friendly web applications",
+    subheadline: "I'm João, a Software Engineer passionate about building scalable and user-friendly web applications",
     slider: [
         {
             imageURL: "/images/website.png",
@@ -58,7 +58,7 @@ const about = {
     path: "/about",
     label: "About",
     title: "About Me",
-    description: "Full Stack Developer with 3+ years of experience building scalable web apps and cloud infrastructure using Python, JavaScript, and AWS. Skilled in automation and system optimization, with a track record of improving deployment and performance. Collaborative and solution-focused, seeking remote or sponsorship-based roles in global tech teams.",
+    description: "Software Engineer with 3+ years of experience building scalable web apps and cloud infrastructure using Python, JavaScript, and AWS. Skilled in automation and system optimization, with a track record of improving deployment and performance. Collaborative and solution-focused, seeking remote or sponsorship-based roles in global tech teams.",
     workExperience: [
         {
             company: "IBM",
