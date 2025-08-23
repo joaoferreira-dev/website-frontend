@@ -70,7 +70,7 @@ export default function About() {
                 </Section>
             </Container>
 
-            <Container>
+            {/* <Container>
                 <Section>
                     <CallToAction 
                         headline={about.ctaContactMe.headline}
@@ -79,7 +79,7 @@ export default function About() {
                         buttonLink={about.ctaContactMe.buttonLink}
                         _blank />
                 </Section>
-            </Container>
+            </Container> */}
         </>
     );
 }
